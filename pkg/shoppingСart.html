@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDR3</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/styleIndex.css">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container_header">
+                <div class="header_button">
+                    <div class="img_block">
+                        <a href="../index.html"><img src="../img/free-icon-font-shopping-cart-3916627.svg" alt=""></a>
+                    </div>
+                    <div class="search_block">
+                        <div class="search_catalog">
+                            <input class="searchAvoska" type="text" placeholder="Поиск">
+                            <label for=""></label>
+                        </div>
+                    </div>
+                    <div class="bkock_profilInfo">
+                        <div class="block1">
+                            <a href="./catalog/catalog.html" class="block_container1">
+                                <div class="over">
+                                    <img class="imgProfil" src="../img/catalog icon.svg" alt="">
+                                    <p class="grey_text">Каталог</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="block2">
+                            <a href="#" class="block_container2">
+                                <div class="over">
+                                    <img class="imgProfil" src="../img/icon basket.svg" alt="">
+                                    <p class="grey_text">Корзина</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="block3">
+                            <a href="./profile1/profile.html" class="block_container3">
+                                <div class="over">
+                                    <img class="imgProfil" src="../img/icon profil.svg" alt="">
+                                    <p class="grey_text">Профиль</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <main>
+            <div class="shopCart">
+                <div class="headerShop">
+                    <h1>Содержимое корзины</h1>
+                </div>
+                <div class="mainShop">
+                    <div id="cart-container"></div>
+                    <button onclick="clearCart()">Очистить корзину</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="../scriptShop.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль пользователя</title>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles/styleIndex.css">
+    <link rel="icon" type="image/x-icon" href="../../img/favicon.ico">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container_header">
+                <div class="header_button">
+                    <div class="img_block">
+                        <a href="../../index.html"><img src="../../img/free-icon-font-shopping-cart-3916627.svg" alt=""></a>
+                    </div>
+                    <div class="search_block">
+                        <div class="search_catalog">
+                            <input class="searchAvoska" type="text" placeholder="Поиск">
+                            <label for=""></label>
+                        </div>
+                    </div>
+                    <div class="bkock_profilInfo">
+                        <div class="block1">
+                            <a href="../catalog/catalog.html" class="block_container1">
+                                <div class="over">
+                                    <img class="imgProfil" src="../../img/catalog icon.svg" alt="">
+                                    <p class="grey_text">Каталог</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="block2">
+                            <a href="../../pkg/shoppingСart.html" class="block_container2">
+                                <div class="over">
+                                    <img class="imgProfil" src="../../img/icon basket.svg" alt="">
+                                    <p class="grey_text">Корзина</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="block3">
+                            <a href="#" class="block_container3">
+                                <div class="over">
+                                    <img class="imgProfil" src="../../img/icon profil.svg" alt="">
+                                    <p class="grey_text">Профиль</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <div class="content">
+            <div class="container">
+                <div class="profile-header">
+
+                    <h1>Мой профиль</h1>
+                </div>
+                <div class="profile-content">
+                    <div class="profile-section" id="edit-profile-section">
+                        <h2>Редактировать профиль</h2>
+                        <div class="profile-info">
+                            <label for="edit-name">Имя:</label>
+                            <input type="text" id="edit-name" placeholder="Имя пользователя">
+                        </div>
+                        <div class="profile-info">
+                            <label for="edit-email">Email:</label>
+                            <input type="email" id="edit-email" placeholder="user@gmail.com">
+                        </div>
+                        <button class="save-profile" id="save-profile">Сохранить</button>
+                    </div>
+                    <div class="profile-section">
+                        <h2>Профиль</h2>
+                        <div class="profile-info">
+                            <label>Статус:</label>
+                            <span class="status active">Активный</span>
+                        </div>
+                        <div class="profile-info">
+                            <label>Город:</label>
+                            <span>Ульяновск</span>
+                        </div>
+                        <div class="profile-info">
+                            <label>Телефон:</label>
+                            <span>+7 (999) 666-55-44</span>
+                        </div>
+                    </div>
+                    <div class="profile-section">
+                        <h2>Бонусы</h2>
+                        <div class="profile-info">
+                            <label>Накопленные бонусы:</label>
+                            <span class="bonus-count">1000</span>
+                        </div>
+                    </div>
+                    <div class="profile-section">
+                        <h2>Мои покупки</h2>
+                        <ul>
+                            <li><a href="#">Заказ #123456 (2 товара)</a></li>
+                            <li><a href="#">Заказ #789012 (1 товар)</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="profile-section">
+                        <h2>Рассылки</h2>
+                        <div class="profile-info">
+                            <label>Подписка на рассылку:</label>
+                            <span class="newsletter-status enabled">Включена</span>
+                            <button class="toggle-newsletter" id="toggle-newsletter">Изменить</button>
+                        </div>
+                    </div>
+                    <div class="profile-section">
+                        <h2>Мои обращения</h2>
+                        <div class="appeals-filter">
+                            <label for="appeal-status-filter">Фильтр по статусу:</label>
+                            <select id="appeal-status-filter">
+                                <option value="all">Все</option>
+                                <option value="open">Открытые</option>
+                                <option value="closed">Закрытые</option>
+                            </select>
+                            <button id="new-appeal">Создать обращение</button>
+                        </div>
+                        <ul class="appeals-list">
+                            <li class="appeal-item" data-status="open">
+                                <a href="#">
+                                    <div class="appeal-header">
+                                        <span class="appeal-id">Обращение #1</span>
+                                        <span class="appeal-date"></span>
+                                    </div>
+                                    <span class="appeal-description">Тех. проблема с заказом</span>
+                                    <span class="appeal-status open">Открыто</span>
+                                </a>
+                            </li>
+                            <li class="appeal-item" data-status="closed">
+                                <a href="#">
+                                    <div class="appeal-header">
+                                        <span class="appeal-id">Обращение #2</span>
+                                        <span class="appeal-date"></span>
+                                    </div>
+                                    <span class="appeal-description">Вопрос по возврату товара</span>
+                                    <span class="appeal-status closed">Закрыто</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="profile-section">
+                        <h2>История просмотров</h2>
+                        <ul>
+                            <li><a href="#">Товар 1</a></li>
+                            <li><a href="#">Товар 2</a></li>
+                            <li><a href="#">Товар 3</a></li>
+                        </ul>
+                    </div>
+                    <div class="profile-section">
+                        <h2>Избранное</h2>
+                        <ul>
+                            <li><a href="#">Товар 1</a></li>
+                            <li><a href="#">Товар 2</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="profile-footer">
+                    <button>Выйти</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="profile.js"></script>
+</body>
+
+</html>

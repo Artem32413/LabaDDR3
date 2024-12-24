@@ -1,0 +1,243 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.grey_text {
+    color: rgb(148, 148, 148);
+}
+
+.info_text {
+    color: rgb(148, 148, 148);
+}
+
+.info_button {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+header {
+    background: rgb(245, 245, 245);
+    border-bottom: 2px solid #C1C1C1;
+    padding: 8px 0 16px;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    right: 0;
+}
+
+.container_header {
+    max-width: 1504px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.arrowB {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.arrowB2 {
+    cursor: pointer;
+    background: none;
+    border: none;
+    transform: rotate(180deg);
+}
+
+.header_info {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+
+}
+
+.header_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left_header {
+    display: flex;
+    gap: 35px;
+}
+
+.right_header {
+    display: flex;
+    gap: 35px;
+}
+
+.header_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchAvoska {
+    background: #DEDEDE;
+    padding: 22px;
+    width: 745px;
+    border-radius: 8px;
+    border: none;
+}
+
+.bkock_profilInfo {
+    display: flex;
+    gap: 25px;
+    margin-top: 22px;
+}
+
+.block1 {
+    display: flex;
+}
+
+.imgProfil {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.over {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    background: #BCC5FF;
+    box-shadow: inset;
+    border-radius: 10px;
+    height: 246px;
+}
+
+main {
+    z-index: 1;
+    padding-top: 200px;
+}
+.price{
+    text-align: center;
+}
+.block_akci {
+    padding: 147px;
+    margin-top: -180px;
+}
+
+.over_blocks {
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.h2Poss {
+    margin-left: 130px;
+}
+
+.container_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    row-gap: 60px;
+}
+
+.block_tov {
+    padding: 147px;
+    margin-top: 40px;
+}
+
+.header_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tovar {
+    width: 150px;
+    height: 152px;
+}
+
+.buy {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 9px
+}
+
+footer {
+    background: black;
+    padding: 8px 0 16px;
+}
+
+.about {
+    color: gray;
+}
+
+.footer_info {
+    color: gray;
+}
+
+.main_about {
+    padding: 118px;
+}
+
+.formConect {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+.shopCart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 226px;
+}
+
+.footer_box {
+    display: flex;
+    align-items: center;
+    gap: 220px;
+    justify-content: center;
+}
+
+.btn_ov {
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    background: #091D9E;
+    transition: background 0.2s ease-in-out;
+    border: transparent;
+}
+
+.btn_ov:hover {
+    background: rgb(111, 116, 184);
+}
+.so{
+    color: black;
+}

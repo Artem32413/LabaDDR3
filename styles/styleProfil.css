@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    position: relative;
+    top: 15vh;
+}
+
+.menuList {
+    margin-top: 150px;
+    width: 600px;
+    height: 630px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+
+}
+.searchAvoska{
+    background: #454545;
+}
+.menu-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+input {
+    color: rgba(128, 129, 133, 1);
+    width: 550px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgba(248, 248, 248, 1);
+    border: 0;
+    margin: 0px 0px 0px 6px;
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#btn {
+    width: 468px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgb(123, 128, 125);
+    color: white;
+    margin: 0px 0px 0px 50px;
+    cursor: pointer;
+    transition: background 0.6s ease-in-out;
+    border: transparent;
+}
+
+#btn:hover {
+    background: rgb(150, 109, 189);
+}
+
+.buttonInput {
+    display: flex;
+}
+
+.passwordGlass {
+    position: relative;
+    left: -65px;
+    background: rgba(248, 248, 248, 1);
+    border: transparent;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.passwordGlass img {
+    color: rgba(128, 129, 133, 1);
+}
+
+.error input::-webkit-input-placeholder {
+    color: rgb(228, 101, 101);
+}
+.avtoriza{
+    color: rgb(138, 138, 138);
+}
